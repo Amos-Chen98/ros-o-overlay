@@ -1,0 +1,36 @@
+Package: ros-one-fcl-catkin-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.6.1-11-g1229bd5-2025.06.10.05.22
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-fcl-catkin
+Maintainer: Wolfgang Merkt <opensource@wolfgangmerkt.com>
+Installed-Size: 49664
+Depends: ros-one-fcl-catkin (= 0.6.1-11-g1229bd5-2025.06.10.05.22)
+Filename: ./ros-one-fcl-catkin-dbgsym_0.6.1-11-g1229bd5-2025.06.10.05.22_amd64.ddeb
+Size: 45004282
+MD5sum: 7d6fbca9f6eded9e6a318cb6e0d9fb04
+SHA1: 6cb6e63d0dc5ec65fea29affbbfd09807efaf18e
+SHA256: 9a2ad6df67925232f4a31cb51c875e77b835411433de5a25e346917c7f23c478
+SHA512: c04a2afd0df53670527d352235e61165118ea2636e5886645109355545255a4c7eddc7a26a62fc032669b1073d1405e8e8ea6b92b7148160d95035e6ff41bd27
+Description: debug symbols for ros-one-fcl-catkin
+Build-Ids: 1fdf704d12c0aa86b6e8d4e8f3cb41c5abca8c21
+
+Package: ros-one-fcl-catkin
+Architecture: amd64
+Version: 0.6.1-11-g1229bd5-2025.06.10.05.22
+Priority: optional
+Section: misc
+Maintainer: Wolfgang Merkt <opensource@wolfgangmerkt.com>
+Installed-Size: 8887
+Depends: libc6 (>= 2.32), libccd2 (>= 2.1), libgcc-s1 (>= 3.3.1), liboctomap1.9 (>= 1.9.7+dfsg), libstdc++6 (>= 11), libccd-dev, libeigen3-dev, liboctomap-dev
+Filename: ./ros-one-fcl-catkin_0.6.1-11-g1229bd5-2025.06.10.05.22_amd64.deb
+Size: 1169774
+MD5sum: 5fb9c96bac300752aaa1c2e42efb13ac
+SHA1: b4a86218919f59688b9003ee3dcf250841674a30
+SHA256: 9b6c93cf8a6c2024c2ff080377744d1ae9d4b96ff0ebb5eccdeddd054f3aea1c
+SHA512: f633569750e2d4998a7b9bb6f2261a437337b75262fd48872e88200c8369c4ce296e344a3ff66245dc3883289a4dddcb81d0fc559c7b57f36610a23a6d776c60
+Description: fcl_catkin
+
