@@ -3,3 +3,7 @@ repositories:
     type: git
     url: https://github.com/wxmerkt/fcl_catkin.git
     version: master
+  qpoases:
+    type: git
+    url: https://github.com/coin-or/qpOASES.git
+    version: releases/3.2.0
